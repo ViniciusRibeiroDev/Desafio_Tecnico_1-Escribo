@@ -11,3 +11,5 @@ Para rodar os testes, basta usar o seguinte comando na raiz do projeto:
 ```
 node --experimental-modules ./test/sum.test.mjs
 ```
+
+OBS: Os testes foram testados na versão 18.18.0 do Node.
