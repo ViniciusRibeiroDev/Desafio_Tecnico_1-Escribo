@@ -20,7 +20,7 @@ class Test {
       this.expect,
       test1,
       this.message
-    )}. valor passado: ${this.value}, return ${test1}`;
+    )}. valor passado: ${this.value}, return: ${test1}`;
 
     if (result1.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -37,7 +37,7 @@ class Test {
       this.expect,
       test2,
       this.message
-    )}. valor passado: ${this.value}, return ${test2}`;
+    )}. valor passado: ${this.value}, return: ${test2}`;
 
     if (result2.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -54,7 +54,7 @@ class Test {
       this.expect,
       test3,
       this.message
-    )}. valor passado: ${this.value}, return ${test3}`;
+    )}. valor passado: ${this.value}, return: ${test3}`;
 
     if (result3.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -80,7 +80,7 @@ ${result3}
       this.expect,
       test1,
       this.message
-    )}. valor passado: ${this.value}, return ${test1}`;
+    )}. valor passado: ${this.value}, return: ${test1}`;
 
     if (result1.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -97,7 +97,7 @@ ${result3}
       this.expect,
       test2,
       this.message
-    )}. valor passado: ${this.value}, return ${test2}`;
+    )}. valor passado: ${this.value}, return: ${test2}`;
 
     if (result2.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -114,7 +114,7 @@ ${result3}
       this.expect,
       test3,
       this.message
-    )}. valor passado: ${this.value}, return ${test3}`;
+    )}. valor passado: ${this.value}, return: ${test3}`;
 
     if (result3.split('.')[0] === 'Test passed') this.testPassed += 1;
 
@@ -140,7 +140,7 @@ ${result3}
       this.expect,
       test1,
       this.message
-    )}. valor passado: ${this.value}, return ${test1}`;
+    )}. valor passado: ${this.value}, return: ${test1}`;
 
     if (result1.split('.')[0] === 'Test passed') this.testPassed += 1;
 
